@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #081b27;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration:none ;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #ededed;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+
+.detail p{
+    color: #e9ebeb;
+    line-height: 22px;
+}
+.detail a{
+    background: #00abf0;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.image{
+    position: relative;
+    
+    position: absolute;
+    left: 75%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.footer{
+    position: relative;
+    margin-top: 11%;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 32px 0;
+    background-color: #3ea7d1;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered;
+    transition: 0.3s ease;
+} 
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: whitesmoke;
+}
